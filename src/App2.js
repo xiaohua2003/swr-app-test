@@ -21,7 +21,7 @@ const {data, error, isLoading} = useSWR('https://jsonplaceholder.typicode.com/us
     // </div>
     <div>
       {data && data?.map((item) => {
-        return  <h4  key={item.id}> email test 1 in feature/1 branch: {item.email}</h4>
+        return  <h4  key={item.id}> email test 1 in feature/1 branch 2: {item.email}</h4>
       })}
     
     </div>
